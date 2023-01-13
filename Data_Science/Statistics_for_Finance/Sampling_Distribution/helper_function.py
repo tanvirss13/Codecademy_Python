@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from scipy import stats
 import seaborn as sns
-
+import codecademylib3
 
 def choose_statistic(x, sample_stat_text):
   # calculate mean if the text is "Mean"
@@ -19,10 +19,10 @@ def choose_statistic(x, sample_stat_text):
   elif sample_stat_text == "Median":
     return np.median(x)
 
-  elif sample_stat_text = "Mode":
+  elif sample_stat_text == "Mode":
     return stats.mode(x)
 
-  elif sample_stat_text = "Maximum":
+  elif sample_stat_text == "Maximum":
     return np.max(x)
   # raise error if sample_stat_text is not "Mean", "Minimum", or "Variance"
   else:
