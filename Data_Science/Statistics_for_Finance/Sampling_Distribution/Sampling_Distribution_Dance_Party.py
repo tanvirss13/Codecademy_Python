@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from scipy import stats
 import seaborn as sns
-import codecademylib3
+
 
 # task 1: load in the spotify dataset
 spotify_data = pd.read_csv('spotify_data.csv')
